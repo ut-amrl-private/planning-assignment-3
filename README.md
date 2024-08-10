@@ -117,4 +117,4 @@ From the Pytest manual (pytest --help), you can use -k to filter running specifi
 Please submit a zip file in Gradescope under CS388U-assignment3. Your zip file should include the following files only:
 - game.py
 - search.py
-- helper files if you have any (not test files should be included) 
+- helper files if you have any (no test files should be included) 
