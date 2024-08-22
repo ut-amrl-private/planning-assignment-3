@@ -114,7 +114,7 @@ From the Pytest manual (pytest --help), you can use -k to filter running specifi
 - It may be helpful to print out / record values of states, actions taken, paths explored, etc along with which player is performing the search.
 
 # Submission Instructions
-Please submit a zip file in Gradescope under CS388U-assignment3. Your zip file should include the following files only:
+Please submit a zip file in Gradescope under AI388U-assignment3. Your zip file should include the following files only:
 - game.py
 - search.py
 - helper files if you have any (no test files should be included) 
