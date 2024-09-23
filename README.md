@@ -84,7 +84,7 @@ class AdversarialSearchPlayer(Player):
 
 **Tabulating Experiment Parameters in Pytest:**
 
-To tabulate your experiments, you can create new file **test_game.py** and add the following parameterized test to the **test_game.py** under the  `TestGame class`, using **@pytest.mark.parametrize**. See Figure 1 below.
+To tabulate your experiments, you can create new file **test_game.py** and add the following parameterized test to the **test_game.py** under the  `TestGame class`, using **@pytest.mark.parametrize**. See code block below.
 ```python
 @pytest.mark.parametrize("p1_class, p2_class, encoded_state_tuple,exp_winner,exp_stat",
     [(PlayerAlgorithmA, PlayerAlgorithmB, (49, 37, 46, 41, 55, 41, 50, 51, 52, 53, 54, 52), "WHITE", "No issues")])
