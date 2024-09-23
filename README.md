@@ -84,7 +84,7 @@ class AdversarialSearchPlayer(Player):
 
 **Tabulating Experiment Parameters in Pytest:**
 
-To tabulate your experiments, you can add the following parameterized test to the **test_game.py** under the  `TestGame class`, using **@pytest.mark.parametrize**. See Figure 1 below.
+To tabulate your experiments, you can create new file **test_game.py** and add the following parameterized test to the **test_game.py** under the  `TestGame class`, using **@pytest.mark.parametrize**. See Figure 1 below.
 ```python
 @pytest.mark.parametrize("p1_class, p2_class, encoded_state_tuple,exp_winner,exp_stat",
     [(PlayerAlgorithmA, PlayerAlgorithmB, (49, 37, 46, 41, 55, 41, 50, 51, 52, 53, 54, 52), "WHITE", "No issues")])
@@ -114,7 +114,7 @@ From the Pytest manual (pytest --help), you can use -k to filter running specifi
 - It may be helpful to print out / record values of states, actions taken, paths explored, etc along with which player is performing the search.
 
 # Submission Instructions
-Please submit a zip file in Gradescope under AI388U-assignment3. Your zip file should include the following files only:
+Please submit a zip file in Gradescope under AI388U-assignment3. Your zip file should include the following files only (no nested folders, no other hidden files):
 - game.py
 - search.py
 - helper files if you have any (no test files should be included) 
