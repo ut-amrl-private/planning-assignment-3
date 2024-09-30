@@ -62,8 +62,8 @@ class AdversarialSearchPlayer(Player):
         Inputs:
           - decoded_state is a 12-tuple of ordered pairs. For example:
           (
-            (c1,r1),(c2,r2),(c3,r3),(c4,r4),(c5, r5),
-            (c6,r6),(c7,r7),(c8,r8),(c9,r9),(c10,r10)
+            (c1,r1),(c2,r2),(c3,r3),(c4,r4),(c5, r5),(c6,r6),
+            (c7,r7),(c8,r8),(c9,r9),(c10,r10),(c12,r12),(c12,r12),
           )
         Outputs:
           - policy returns a tuple (action, value), where action is an action tuple
