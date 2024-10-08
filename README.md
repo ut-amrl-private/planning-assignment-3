@@ -39,7 +39,7 @@ class Player:
     def policy(self, decode_state):
         pass
 ```
-You can create a specific type of Player by subclassing from Player. You are welcome to create multiple types of Players, **but the one we grade will be called AdversarialSearchPlayer.**
+You can create a specific type of Player in game.py by subclassing from Player. You are welcome to create multiple types of Players, **but the one we grade will be called AdversarialSearchPlayer, and it has to be in game.py**
 ```python
 class AdversarialSearchPlayer(Player):
     def __init__(self, gsp, player_idx):
