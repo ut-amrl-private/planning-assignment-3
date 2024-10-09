@@ -102,12 +102,12 @@ The above example assumes that two player classes, PlayerAlgorithmA and PlayerAl
 
 You can tabulate your experiments by adding more tuples (also feel free to add in additional parameters that you might need for your algorithms, or separate test functions if you feel those would better capture your experiment settings). Here are small subset of tuples which Autograde will check. There is no need to modify `GameSimulator.run`, if you modified for your local test or debug, please revert it back before you submit your solution
 ```python
-(49, 37, 46,  7, 55,  7, 50, 51, 52, 53, 54, 52), "WHITE", "No issues")
-(49, 37, 46,  0, 55,  0, 50, 51, 52, 53, 54, 52), "WHITE", "No issues")
-(14, 21, 22, 28, 29, 22,  9, 20, 34, 39, 55, 55), "BLACK", "No issues")
-(14, 21, 22, 28, 29, 22, 11, 20, 34, 39, 55, 55), "BLACK", "No issues")
-(44, 37, 46, 34, 40, 34,  1,  2, 52,  4,  5, 52), "WHITE", "No issues")
-(44, 37, 46, 28, 40, 28,  1,  2, 52,  4,  5, 52), "WHITE", "No issues")
+(Your AdversarialSearchPlayer, PlayerWithAlgorithmB, (49, 37, 46,  7, 55,  7, 50, 51, 52, 53, 54, 52), "WHITE", "No issues") 
+(Your AdversarialSearchPlayer, PlayerWithAlgorithmB, (49, 37, 46,  0, 55,  0, 50, 51, 52, 53, 54, 52), "WHITE", "No issues") 
+(PlayerWithAlgorithmB, Your AdversarialSearchPlayer, (14, 21, 22, 28, 29, 22,  9, 20, 34, 39, 55, 55), "BLACK", "No issues") 
+(PlayerWithAlgorithmB, Your AdversarialSearchPlayer, (14, 21, 22, 28, 29, 22, 11, 20, 34, 39, 55, 55), "BLACK", "No issues") 
+(Your AdversarialSearchPlayer, PlayerWithAlgorithmB, (44, 37, 46, 34, 40, 34,  1,  2, 52,  4,  5, 52), "WHITE", "No issues") 
+(Your AdversarialSearchPlayer, PlayerWithAlgorithmB, (44, 37, 46, 28, 40, 28,  1,  2, 52,  4,  5, 52), "WHITE", "No issues") 
 ```
 
 In order to run only this specific test using Pytest, you can run pytest -k test_adversarial_search
